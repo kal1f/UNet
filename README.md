@@ -20,8 +20,8 @@ Moreover we should make sure that our eval function was implemented in right way
 So, to try my code you should clone repo, create virtual env using requerments.txt (I used conda env) to install depedencies that I used. 
 
 To install: 
-1. git clone rep
-2. cd rep
+1. git clone UNet
+2. cd UNet
 3. pip install venv
 4. source venv/bin/activate
 5. pip istall -r requerments.txt
