@@ -43,14 +43,6 @@ preds_test = model.predict(X_test, verbose=1)
 
 preds_test_t = (preds_test > 0.5).astype(np.uint8)
 
-preds_test_upsampled = []
-for i in range(len(preds_test)):
-    preds_test_upsampled.append(resize(np.squeeze(preds_test[i]), 
-                                       (sizes_test[i][0], sizes_test[i][1]), 
-                                       mode='constant', preserve_range=True))
-
-
-
 ix = random.randint(0, len(preds_test_t))
 imshow(X_test[ix])
 plt.show()
