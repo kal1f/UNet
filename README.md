@@ -14,7 +14,7 @@ Too many epochs can lead to overfitting of the training dataset, whereas too few
 
 
 
-Moreover we should make sure that our eval function was implemented in right way. Values must be between 0 and  1. When we run train.py file we will see how change our loss function down and dice score up, so all is good. And when script finished our model we be save in model.h5 file, so you should'n run train everytime.
+Moreover we should make sure that our eval function was implemented in right way. Values must be between 0 and  1. When we run train.py file we will see how change our loss function down and dice score up, so all is good. And when script finished our model will be saved in model.h5 file, so you should'n run train everytime.
 
 
 So, to try my code you should clone repo, create virtual env using requerments.txt (I used conda env) to install depedencies that I used. 
